@@ -1,0 +1,51 @@
+{
+  "date": "2026-11-06",
+  "source": "douyin",
+  "platform": "douyin",
+  "topic_id": "DY-window",
+  "title": "AI答案对不对，先看它取的哪24小时",
+  "draft_path": "E:\\WorkbuddyWork\\2026-11-01-18-31-53\\xhs\\content\\drafts\\2026-11-06_DY-window.json",
+  "image_count": 1,
+  "compliance_passed": true,
+  "violations": [],
+  "warnings": [
+    {
+      "category": "需勾选AI内容标识",
+      "detail": "抖音《内容标识使用规范》要求AI生成内容勾选「含有AI生成内容」，网信办6类必选标签为发布必经环节",
+      "platform": "douyin"
+    }
+  ],
+  "title_advice": [],
+  "published": true,
+  "publish_result": {
+    "ok": true,
+    "stage": "done",
+    "title": "AI答案对不对，先看它取的哪24小时",
+    "log": [
+      "已登录",
+      "已进入文章编辑器: https://creator.douyin.com/creator-micro/content/post/article?default-",
+      "标题已填: AI答案对不对，先看它取的哪24小时",
+      "摘要已填: 你有没有遇到过这种情况：AI给你的分析看着挺新，其实数据",
+      "正文已填 454 字",
+      "文章头图已上传 1 张",
+      "封面已上传 1 张",
+      "已同步头图为封面",
+      "话题已加: AI工具 量化学习 投资复盘 效率工具",
+      "AI 内容标识已勾选",
+      "已点击发布",
+      "发布结果: url_change",
+      "内容管理核实: 已确认发布 (随变 世界书 造世界 AI工坊 0 内容管理 作品 (16) 作品合集 审核状态 长图文 发布日期 最新发布 导出数据 )"
+    ],
+    "publish_result": {
+      "ok": true,
+      "marker": "url_change",
+      "url": "https://creator.douyin.com/creator-micro/content/manage?enter_from=publish"
+    },
+    "verify": {
+      "ok": true,
+      "detail": "随变 世界书 造世界 AI工坊 0 内容管理 作品 (16) 作品合集 审核状态 长图文 发布日期 最新发布 导出数据 AI答案对不对，先看它取的哪24小时 设置权限 作品置顶 删除作品 2026年11月06日 15:38 审核中 播放 - 点赞 - 评论 - 分享 - 详情页进入率 - 完播率 -  私密 4个板块，材料只有个位数的我不看结论 设置权限 删"
+    },
+    "final_url": "https://creator.douyin.com/creator-micro/content/manage?enter_from=publish"
+  },
+  "content_fingerprint": "248e5bf512ffebdf798be427d6326c68e97b8b26"
+}

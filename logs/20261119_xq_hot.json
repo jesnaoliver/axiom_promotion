@@ -1,0 +1,27 @@
+{
+  "date": "20261119",
+  "steps": [
+    {
+      "step": "dedup",
+      "ok": true,
+      "skipped": true,
+      "reason": "今日已有发布记录（第九章/第十章），不重复发布",
+      "today_count": 1,
+      "existing_post_ids": [
+        417589417
+      ]
+    }
+  ],
+  "posts": [],
+  "published": false,
+  "ok": true,
+  "compliance_passed": true,
+  "title": "半导体这个方向，今天值得把事实和情绪分开看",
+  "topic_id": "XQ-hot-0-半导体",
+  "skipped": true,
+  "skip_reason": "今日已发布（第九章/第十章）",
+  "existing_post_ids": [
+    417589417
+  ],
+  "existing_post_url": "https://xueqiu.com/2569689091/417589417"
+}

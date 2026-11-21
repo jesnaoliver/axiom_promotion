@@ -1,0 +1,39 @@
+{
+  "date": "2026-11-02",
+  "topic_id": "A02",
+  "title": "AI甩锅「风格切换」，我拉了数据",
+  "slot": "18:30",
+  "draft_path": "E:\\WorkbuddyWork\\2026-11-01-18-31-53\\xhs\\content\\drafts\\2026-11-02_A02.json",
+  "cover": "E:\\WorkbuddyWork\\2026-11-01-18-31-53\\xhs\\assets\\cover_A02.jpg",
+  "compliance_passed": true,
+  "violations": [],
+  "warnings": [
+    {
+      "level": "WARN",
+      "category": "配图数量偏离最优区间",
+      "advice": "当前 1 张，最优 6-9 张（1-18 张为平台上限）"
+    }
+  ],
+  "missing_slots": [
+    "hook_ai",
+    "failure",
+    "lesson",
+    "fix1",
+    "fix2",
+    "fix3",
+    "result",
+    "method"
+  ],
+  "published": false,
+  "publish_result": {
+    "ok": false,
+    "stage": "title",
+    "error": "标题输入框未找到",
+    "log": [
+      "浏览器模式: profile",
+      "已通过登录校验",
+      "已选择图文笔记类型",
+      "已上传 1 张图片"
+    ]
+  }
+}

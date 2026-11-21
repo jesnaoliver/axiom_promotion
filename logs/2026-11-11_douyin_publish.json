@@ -1,0 +1,51 @@
+{
+  "date": "2026-11-11",
+  "source": "douyin",
+  "platform": "douyin",
+  "topic_id": "DY-research",
+  "title": "1224份研报，我按类型存不按行业存",
+  "draft_path": "E:\\WorkbuddyWork\\2026-11-01-18-31-53\\xhs\\content\\drafts\\2026-11-11_DY-research.json",
+  "content_fingerprint": "a1a31941a5034b5c7d295ae8dbd727f0a8693658",
+  "image_count": 1,
+  "compliance_passed": true,
+  "violations": [],
+  "warnings": [
+    {
+      "category": "需勾选AI内容标识",
+      "detail": "抖音《内容标识使用规范》要求AI生成内容勾选「含有AI生成内容」，网信办6类必选标签为发布必经环节",
+      "platform": "douyin"
+    }
+  ],
+  "title_advice": [],
+  "published": true,
+  "publish_result": {
+    "ok": true,
+    "stage": "done",
+    "title": "1224份研报，我按类型存不按行业存",
+    "log": [
+      "已登录",
+      "已进入文章编辑器: https://creator.douyin.com/creator-micro/content/post/article?default-",
+      "标题已填: 1224份研报，我按类型存不按行业存",
+      "摘要已填: 你有没有遇到过这种情况：研报存了一堆，想找的时候全找不到",
+      "正文已填 575 字",
+      "文章头图已上传 1 张",
+      "封面已上传 1 张",
+      "已同步头图为封面",
+      "话题已加: 研究方法 AI工具 效率工具 投资复盘",
+      "⚠️ 未找到 AI 内容标识选项（发布前需人工勾选）",
+      "已点击发布",
+      "发布结果: url_change",
+      "内容管理核实: 已确认发布 (随变 世界书 造世界 AI工坊 0 内容管理 作品 (21) 作品合集 审核状态 长图文 发布日期 最新发布 导出数据 )"
+    ],
+    "publish_result": {
+      "ok": true,
+      "marker": "url_change",
+      "url": "https://creator.douyin.com/creator-micro/content/manage?enter_from=publish"
+    },
+    "verify": {
+      "ok": true,
+      "detail": "随变 世界书 造世界 AI工坊 0 内容管理 作品 (21) 作品合集 审核状态 长图文 发布日期 最新发布 导出数据 1224份研报，我按类型存不按行业存 设置权限 作品置顶 删除作品 2026年11月11日 15:46 审核中 播放 - 点赞 - 评论 - 分享 - 详情页进入率 - 完播率 - 16287条信息，我只看其中1类 设置权限 作品置顶 删除"
+    },
+    "final_url": "https://creator.douyin.com/creator-micro/content/manage?enter_from=publish"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "date": "2026-11-11",
+  "source": "axiom",
+  "topic_id": "AX-2026-11-10-research",
+  "title": "我存研报改了分类方式，效率差了一个量级",
+  "draft_path": "E:\\WorkbuddyWork\\2026-11-01-18-31-53\\xhs\\content\\drafts\\2026-11-11_AX-2026-11-10-research.json",
+  "cover": "E:\\WorkbuddyWork\\2026-11-01-18-31-53\\xhs\\assets\\cover_AX-2026-11-10-research.jpg",
+  "screenshot": "E:\\WorkbuddyWork\\2026-11-01-18-31-53\\xhs\\assets\\composed\\shot_intel_detail.jpg",
+  "image_count": 2,
+  "compliance_passed": true,
+  "violations": [],
+  "project_issues": [],
+  "warnings": [
+    {
+      "level": "WARN",
+      "category": "配图数量偏离最优区间",
+      "advice": "当前 2 张，最优 6-9 张（1-18 张为平台上限）"
+    }
+  ],
+  "published": false,
+  "publish_result": {
+    "ok": false,
+    "stage": "account_blocked",
+    "error": "账号已被平台限制发文（历史日志记录了 account_blocked）",
+    "hint": "需人工在 App 内完成申诉/解禁后，再恢复自动发布。本次未提交任何内容，不会产生新的重复笔记。",
+    "log": [
+      "浏览器模式: profile",
+      "已通过登录校验",
+      "⛔ 预检拦截：该账号此前已被平台限制发文（account_blocked）"
+    ]
+  }
+}

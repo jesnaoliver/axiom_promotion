@@ -1,0 +1,23 @@
+{
+  "date": "2026-11-12",
+  "source": "douyin",
+  "platform": "douyin",
+  "topic_id": "DY-intel",
+  "title": "16601条信息，我只看其中1类",
+  "draft_path": "E:\\WorkbuddyWork\\2026-11-01-18-31-53\\xhs\\content\\drafts\\2026-11-12_DY-intel.json",
+  "content_fingerprint": "ed9d7ee3d0f0cec0c5d7b170b2060548b7e8af75",
+  "image_count": 1,
+  "compliance_passed": true,
+  "violations": [],
+  "warnings": [
+    {
+      "category": "需勾选AI内容标识",
+      "detail": "抖音《内容标识使用规范》要求AI生成内容勾选「含有AI生成内容」，网信办6类必选标签为发布必经环节",
+      "platform": "douyin"
+    }
+  ],
+  "title_advice": [],
+  "published": false,
+  "error": "2026-11-12 抖音当日已有成功发布记录，本次不再重复发布",
+  "stage": "dedup"
+}

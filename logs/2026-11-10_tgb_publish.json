@@ -1,0 +1,64 @@
+{
+  "date": "2026-11-10",
+  "source": "tgb",
+  "platform": "tgb",
+  "topic_id": "TGB-method-info-tiers",
+  "title": "信息太多的时候，我靠分类而不是靠意志力",
+  "category": "方法论",
+  "body_len": 842,
+  "draft_path": "E:\\WorkbuddyWork\\2026-11-01-18-31-53\\xhs\\content\\drafts\\2026-11-10_TGB-method-info-tiers.json",
+  "compliance_passed": true,
+  "violations": [],
+  "warnings": [
+    {
+      "category": "发帖节奏",
+      "detail": "规则二.4禁止大量重复发帖；官方明示创作中心1级前每天发言次数受限，且违规会回溯历史发言。建议先发1篇观察24-72小时审核与反馈",
+      "platform": "tgb"
+    }
+  ],
+  "published": true,
+  "publish_result": {
+    "ok": true,
+    "stage": "done",
+    "title": "信息太多的时候，我靠分类而不是靠意志力",
+    "log": [
+      "已登录",
+      "已进入发帖页",
+      "标题已填: 信息太多的时候，我靠分类而不是靠意志力",
+      "正文已填 842 字",
+      "分类「方法论」: 已选",
+      "话题：不填（避免误入官方推广活动位）",
+      "已点击发表",
+      "提交结果: 页面已跳转帖子页 /a/2wBZSvTuRMq（2026-11-10 17:11）"
+    ],
+    "publish_result": {
+      "ok": true,
+      "marker": "posted",
+      "url": "https://www.tgb.cn/a/2wBZSvTuRMq"
+    },
+    "final_url": "https://www.tgb.cn/a/2wBZSvTuRMq"
+  },
+  "verification": {
+    "checked_at": "2026-11-10T17:20:00+08:00",
+    "status": "posted_and_visible",
+    "published_at": "2026-11-10 17:11",
+    "note": "本次 scheduler 运行在「点击发表」之后因 publisher.py 缺少 import re 抛 NameError 中断，publish_result 未回写。经站点只读复核确认帖子已成功发布：个人中心「我的帖子」列出该文 2026-11-10 17:11，帖页 https://www.tgb.cn/a/2wBZSvTuRMq 可访问。分类「方法论」、主题股票为空、主题概念为空、无话题、正文无站外引流/个股代码/买卖方向/业绩数字。已补记本日志以触发当日去重守卫，避免重跑重复发帖。",
+    "page_checks": {
+      "category_shown": "方法论",
+      "topic_stock": "",
+      "topic_concept": "",
+      "tags": "",
+      "external_links_in_body": false,
+      "stock_codes": false,
+      "performance_numbers": false
+    }
+  },
+  "incidents": [
+    {
+      "type": "publisher_crash_after_submit",
+      "detail": "publish/tgb/publisher.py 顶部缺 `import re`，wait_submit_result() 第416行调用 re.search 抛 NameError: name 're' is not defined。崩溃发生在「已点击发表」之后，帖子实际已发布成功。已修复（补 import re）。",
+      "fix": "publish/tgb/publisher.py 增加 import re",
+      "resolved": true
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "date": "2026-11-12",
+  "source": "douyin",
+  "platform": "douyin",
+  "topic_id": "DY-conf",
+  "title": "4个板块AI标了4个高置信，剩0个自己查",
+  "draft_path": "E:\\WorkbuddyWork\\2026-11-01-18-31-53\\xhs\\content\\drafts\\2026-11-12_DY-conf.json",
+  "content_fingerprint": "27493a72052c9627d6e4c2f80503ceab8a5f8247",
+  "image_count": 1,
+  "compliance_passed": true,
+  "violations": [],
+  "warnings": [
+    {
+      "category": "需勾选AI内容标识",
+      "detail": "抖音《内容标识使用规范》要求AI生成内容勾选「含有AI生成内容」，网信办6类必选标签为发布必经环节",
+      "platform": "douyin"
+    }
+  ],
+  "title_advice": [],
+  "published": true,
+  "publish_result": {
+    "ok": true,
+    "stage": "done",
+    "title": "4个板块AI标了4个高置信，剩0个自己查",
+    "log": [
+      "已登录",
+      "已进入文章编辑器: https://creator.douyin.com/creator-micro/content/post/article?default-",
+      "标题已填: 4个板块AI标了4个高置信，剩0个自己查",
+      "摘要已填: 你有没有遇到过这种情况：AI给你一份分析，看着特别专业，",
+      "正文已填 707 字",
+      "文章头图已上传 1 张",
+      "封面已上传 1 张",
+      "已同步头图为封面",
+      "话题已加: AI工具 效率工具 交易复盘 自动化 投资复盘",
+      "⚠️ 未找到 AI 内容标识选项（发布前需人工勾选）",
+      "已点击发布",
+      "发布结果: url_change",
+      "内容管理核实: 已确认发布 (随变 世界书 造世界 AI工坊 0 内容管理 作品 (22) 作品合集 审核状态 长图文 发布日期 最新发布 导出数据 )"
+    ],
+    "publish_result": {
+      "ok": true,
+      "marker": "url_change",
+      "url": "https://creator.douyin.com/creator-micro/content/manage?enter_from=publish"
+    },
+    "verify": {
+      "ok": true,
+      "detail": "随变 世界书 造世界 AI工坊 0 内容管理 作品 (22) 作品合集 审核状态 长图文 发布日期 最新发布 导出数据 4个板块AI标了4个高置信，剩0个自己查 设置权限 作品置顶 删除作品 2026年11月12日 15:22 审核中 播放 - 点赞 - 评论 - 分享 - 详情页进入率 - 完播率 - 1224份研报，我按类型存不按行业存 设置权限 作品置"
+    },
+    "final_url": "https://creator.douyin.com/creator-micro/content/manage?enter_from=publish"
+  }
+}

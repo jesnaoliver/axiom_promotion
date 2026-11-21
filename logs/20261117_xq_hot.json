@@ -1,0 +1,12 @@
+{
+  "date": "20261117",
+  "steps": [
+    {
+      "step": "login",
+      "ok": false,
+      "error": "雪球登录未完成"
+    }
+  ],
+  "posts": [],
+  "published": false
+}

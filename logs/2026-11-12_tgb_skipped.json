@@ -1,0 +1,22 @@
+{
+  "date": "2026-11-12",
+  "source": "tgb",
+  "platform": "tgb",
+  "topic_id": "TGB-method-falsification",
+  "title": "先写下「如果错了会看到什么」再开始分析",
+  "category": "方法论",
+  "body_len": 739,
+  "draft_path": "E:\\WorkbuddyWork\\2026-11-01-18-31-53\\xhs\\content\\drafts\\2026-11-12_TGB-method-falsification.json",
+  "compliance_passed": true,
+  "violations": [],
+  "warnings": [
+    {
+      "category": "发帖节奏",
+      "detail": "规则二.4禁止大量重复发帖；官方明示创作中心1级前每天发言次数受限，且违规会回溯历史发言。建议先发1篇观察24-72小时审核与反馈",
+      "platform": "tgb"
+    }
+  ],
+  "published": false,
+  "error": "2026-11-12 淘股吧当日已有发布记录（规则二.4 禁止大量重复发帖），本次不再重复发布",
+  "stage": "dedup"
+}

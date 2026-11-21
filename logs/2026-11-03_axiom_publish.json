@@ -1,0 +1,45 @@
+{
+  "date": "2026-11-03",
+  "source": "axiom",
+  "topic_id": "AX-2026-11-01-conf",
+  "title": "我让AI写日报，它主动说“这个我不确定”",
+  "draft_path": "E:\\WorkbuddyWork\\2026-11-01-18-31-53\\xhs\\content\\drafts\\2026-11-03_AX-2026-11-01-conf.json",
+  "cover": "E:\\WorkbuddyWork\\2026-11-01-18-31-53\\xhs\\assets\\cover_AX-2026-11-01-conf.jpg",
+  "screenshot": "E:\\WorkbuddyWork\\2026-11-01-18-31-53\\xhs\\assets\\composed\\shot_dashboard.jpg",
+  "image_count": 2,
+  "compliance_passed": true,
+  "violations": [],
+  "project_issues": [],
+  "warnings": [
+    {
+      "level": "WARN",
+      "category": "配图数量偏离最优区间",
+      "advice": "当前 2 张，最优 6-9 张（1-18 张为平台上限）"
+    }
+  ],
+  "published": true,
+  "publish_result": {
+    "ok": true,
+    "stage": "done",
+    "title": "我让AI写日报，它主动说“这个我不确定”",
+    "ai_declared": true,
+    "log": [
+      "浏览器模式: profile",
+      "已通过登录校验",
+      "已上传 2 张图片",
+      "编辑区已就绪",
+      "标题已填入: 我让AI写日报，它主动说“这个我不确定”",
+      "正文已填入 685 字",
+      "标签已追加: #AI工具  #效率工具  #交易复盘  #自动化  #量化学习  #投资复盘",
+      "AI 合成内容声明: 已勾选",
+      "已点击发布",
+      "发布结果: 发布成功"
+    ],
+    "publish_result": {
+      "ok": true,
+      "marker": "发布成功",
+      "url": "https://creator.xiaohongshu.com/publish/success?source&bind_status=not_bind&__debugger__=&proxy="
+    },
+    "final_url": "https://creator.xiaohongshu.com/publish/success?source&bind_status=not_bind&__debugger__=&proxy="
+  }
+}

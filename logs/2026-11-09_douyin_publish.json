@@ -1,0 +1,53 @@
+{
+  "date": "2026-11-09",
+  "source": "douyin",
+  "platform": "douyin",
+  "topic_id": "DY-howto",
+  "title": "我把问AI拆成3问，答案终于能落地",
+  "draft_path": "E:\\WorkbuddyWork\\2026-11-01-18-31-53\\xhs\\content\\drafts\\2026-11-09_DY-howto.json",
+  "image_count": 1,
+  "compliance_passed": true,
+  "violations": [],
+  "warnings": [
+    {
+      "category": "需勾选AI内容标识",
+      "detail": "抖音《内容标识使用规范》要求AI生成内容勾选「含有AI生成内容」，网信办6类必选标签为发布必经环节",
+      "platform": "douyin"
+    }
+  ],
+  "title_advice": [
+    "抖音标题偏「问题+损失」，比「我做了什么」更抓人"
+  ],
+  "published": true,
+  "publish_result": {
+    "ok": true,
+    "stage": "done",
+    "title": "我把问AI拆成3问，答案终于能落地",
+    "log": [
+      "已登录",
+      "已进入文章编辑器: https://creator.douyin.com/creator-micro/content/post/article?default-",
+      "标题已填: 我把问AI拆成3问，答案终于能落地",
+      "摘要已填: 你有没有遇到过这种情况：问AI研究类问题，问完等一大段答",
+      "正文已填 431 字",
+      "文章头图已上传 1 张",
+      "封面已上传 1 张",
+      "已同步头图为封面",
+      "话题已加: AI工作流 AI工具 效率工具 交易复盘",
+      "⚠️ 未找到 AI 内容标识选项（发布前需人工勾选）",
+      "已点击发布",
+      "发布结果: url_change",
+      "内容管理核实: 已确认发布 (随变 世界书 造世界 AI工坊 0 内容管理 作品 (19) 作品合集 审核状态 长图文 发布日期 最新发布 导出数据 )"
+    ],
+    "publish_result": {
+      "ok": true,
+      "marker": "url_change",
+      "url": "https://creator.douyin.com/creator-micro/content/manage?enter_from=publish"
+    },
+    "verify": {
+      "ok": true,
+      "detail": "随变 世界书 造世界 AI工坊 0 内容管理 作品 (19) 作品合集 审核状态 长图文 发布日期 最新发布 导出数据 我把问AI拆成3问，答案终于能落地 设置权限 作品置顶 删除作品 2026年11月09日 15:45 已发布 播放 0 点赞 0 评论 0 分享 0 详情页进入率 0% 完播率 0% 1204份研报，我按类型存不按行业存 设置权限 作品置顶"
+    },
+    "final_url": "https://creator.douyin.com/creator-micro/content/manage?enter_from=publish"
+  },
+  "content_fingerprint": "eb7924448ef180423067160aaad86405c72b7352"
+}

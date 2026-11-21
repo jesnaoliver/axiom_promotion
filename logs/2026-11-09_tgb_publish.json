@@ -1,0 +1,47 @@
+{
+  "date": "2026-11-09",
+  "source": "tgb",
+  "platform": "tgb",
+  "topic_id": "TGB-method-backtest-hallucination",
+  "title": "回测里那些漂亮的结果，多半是幻觉",
+  "category": "方法论",
+  "body_len": 1094,
+  "draft_path": "E:\\WorkbuddyWork\\2026-11-01-18-31-53\\xhs\\content\\drafts\\2026-11-09_TGB-method-backtest-hallucination.json",
+  "compliance_passed": true,
+  "violations": [],
+  "warnings": [
+    {
+      "category": "发帖节奏",
+      "detail": "规则二.4禁止大量重复发帖；官方明示创作中心1级前每天发言次数受限，且违规会回溯历史发言。建议先发1篇观察24-72小时审核与反馈",
+      "platform": "tgb"
+    }
+  ],
+  "published": true,
+  "publish_result": {
+    "ok": true,
+    "stage": "done",
+    "title": "回测里那些漂亮的结果，多半是幻觉",
+    "log": [
+      "已登录",
+      "已进入发帖页",
+      "标题已填: 回测里那些漂亮的结果，多半是幻觉",
+      "正文已填 1094 字",
+      "分类「方法论」: 已选",
+      "话题：不填（避免误入官方推广活动位）",
+      "已点击发表",
+      "提交结果: timeout"
+    ],
+    "publish_result": {
+      "ok": null,
+      "marker": "timeout",
+      "url": "https://www.tgb.cn/a/2wAbfN9pI2c"
+    },
+    "final_url": "https://www.tgb.cn/a/2wAbfN9pI2c"
+  },
+  "verification": {
+    "checked_at": "2026-11-09T20:10:00+08:00",
+    "status": "posted_and_visible",
+    "published_at": "2026-11-09 14:55",
+    "note": "2026-11-09 复核：marker=timeout 实为误判，final_url 已是帖子页 /a/2wAbfN9pI2c，帖子在架可见、分类「方法论」、主题股票/主题概念均为空。published 已据实修正为 true；当日另有第一篇《把 AI 放进复盘流程后，我踩了四个坑》(14:51, /a/2wAaYu0BG5c)，当日合计 2 篇，后续须停发观察审核。"
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "date": "2026-11-07",
+  "source": "douyin",
+  "platform": "douyin",
+  "topic_id": "DY-intel",
+  "title": "16128条信息，我只看其中2类",
+  "draft_path": "E:\\WorkbuddyWork\\2026-11-01-18-31-53\\xhs\\content\\drafts\\2026-11-07_DY-intel.json",
+  "image_count": 1,
+  "compliance_passed": true,
+  "violations": [],
+  "warnings": [
+    {
+      "category": "需勾选AI内容标识",
+      "detail": "抖音《内容标识使用规范》要求AI生成内容勾选「含有AI生成内容」，网信办6类必选标签为发布必经环节",
+      "platform": "douyin"
+    }
+  ],
+  "title_advice": [],
+  "published": true,
+  "publish_result": {
+    "ok": true,
+    "stage": "done",
+    "title": "16128条信息，我只看其中2类",
+    "log": [
+      "已登录",
+      "已进入文章编辑器: https://creator.douyin.com/creator-micro/content/post/article?default-",
+      "标题已填: 16128条信息，我只看其中2类",
+      "摘要已填: 你有没有遇到过这种情况：信息太多，看完黄花菜都凉了。  ",
+      "正文已填 518 字",
+      "文章头图已上传 1 张",
+      "封面已上传 1 张",
+      "已同步头图为封面",
+      "话题已加: 信息整理 效率工具 AI工具 工作流",
+      "⚠️ 未找到 AI 内容标识选项（发布前需人工勾选）",
+      "已点击发布",
+      "发布结果: url_change",
+      "内容管理核实: 已确认发布 (随变 世界书 造世界 AI工坊 0 内容管理 作品 (16) 作品合集 审核状态 长图文 发布日期 最新发布 导出数据 )"
+    ],
+    "publish_result": {
+      "ok": true,
+      "marker": "url_change",
+      "url": "https://creator.douyin.com/creator-micro/content/manage?enter_from=publish"
+    },
+    "verify": {
+      "ok": true,
+      "detail": "随变 世界书 造世界 AI工坊 0 内容管理 作品 (16) 作品合集 审核状态 长图文 发布日期 最新发布 导出数据 16128条信息，我只看其中2类 设置权限 作品置顶 删除作品 2026年11月07日 23:15 审核中 播放 - 点赞 - 评论 - 分享 - 详情页进入率 - 完播率 - AI答案对不对，先看它取的哪24小时 设置权限 作品置顶 删除"
+    },
+    "final_url": "https://creator.douyin.com/creator-micro/content/manage?enter_from=publish"
+  },
+  "content_fingerprint": "2fc453c319b32b060991f1c9f7b437e6e9d81e10"
+}

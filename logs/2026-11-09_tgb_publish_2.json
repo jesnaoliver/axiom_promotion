@@ -1,0 +1,26 @@
+{
+  "date": "2026-11-09",
+  "source": "tgb",
+  "platform": "tgb",
+  "topic_id": "TGB-method-ai-review",
+  "title": "把 AI 放进复盘流程后，我踩了四个坑",
+  "category": "方法论",
+  "published": true,
+  "publish_result": {
+    "ok": true,
+    "stage": "done",
+    "title": "把 AI 放进复盘流程后，我踩了四个坑",
+    "publish_result": {
+      "ok": true,
+      "marker": "posted",
+      "url": "https://www.tgb.cn/a/2wAaYu0BG5c"
+    },
+    "final_url": "https://www.tgb.cn/a/2wAaYu0BG5c"
+  },
+  "verification": {
+    "checked_at": "2026-11-09T20:10:00+08:00",
+    "status": "posted_and_visible",
+    "published_at": "2026-11-09 14:51",
+    "note": "补记：2026-11-09 当日第一篇。因当日两次发布写入同一路径日志，本篇原始日志被覆盖，此处按线上实况补录，供主题轮换去重使用。当日合计 2 篇（14:51 / 14:55）。"
+  }
+}

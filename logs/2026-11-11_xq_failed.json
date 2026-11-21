@@ -1,0 +1,26 @@
+{
+  "date": "2026-11-11",
+  "source": "xq",
+  "platform": "xueqiu",
+  "topic_id": "XQ-ai-checklist",
+  "title": "我给AI写了套防幻觉检查清单，用了三个月的复盘总结",
+  "body_len": 1073,
+  "tags": [
+    "投资心得",
+    "量化研究",
+    "交易复盘",
+    "AI工具"
+  ],
+  "ai_marked": true,
+  "draft_path": "E:\\WorkbuddyWork\\2026-11-01-18-31-53\\xhs\\content\\drafts\\2026-11-11_XQ-ai-checklist.json",
+  "compliance_passed": true,
+  "violations": [],
+  "warnings": [],
+  "published": false,
+  "publish_result": {
+    "ok": false,
+    "stage": "login",
+    "error": "雪球未登录",
+    "log": []
+  }
+}

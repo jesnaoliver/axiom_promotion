@@ -1,0 +1,43 @@
+{
+  "date": "2026-11-12",
+  "source": "tgb",
+  "platform": "tgb",
+  "topic_id": "TGB-method-data-window",
+  "title": "看AI结论之前，先确认它用的是哪段时间的数据",
+  "category": "方法论",
+  "body_len": 726,
+  "draft_path": "E:\\WorkbuddyWork\\2026-11-01-18-31-53\\xhs\\content\\drafts\\2026-11-12_TGB-method-data-window.json",
+  "compliance_passed": true,
+  "violations": [],
+  "warnings": [
+    {
+      "category": "发帖节奏",
+      "detail": "规则二.4禁止大量重复发帖；官方明示创作中心1级前每天发言次数受限，且违规会回溯历史发言。建议先发1篇观察24-72小时审核与反馈",
+      "platform": "tgb"
+    }
+  ],
+  "published": true,
+  "publish_result": {
+    "ok": true,
+    "stage": "done",
+    "title": "看AI结论之前，先确认它用的是哪段时间的数据",
+    "log": [
+      "已登录",
+      "已进入发帖页",
+      "标题已填: 看AI结论之前，先确认它用的是哪段时间的数据",
+      "正文已填 726 字",
+      "分类「方法论」: 已选",
+      "话题：不填（避免误入官方推广活动位）",
+      "已点击发表",
+      "提交结果: posted",
+      "  提示: 已跳转帖子页: https://www.tgb.cn/a/2wFjHgwHi0g"
+    ],
+    "publish_result": {
+      "ok": true,
+      "marker": "posted",
+      "detail": "已跳转帖子页: https://www.tgb.cn/a/2wFjHgwHi0g",
+      "url": "https://www.tgb.cn/a/2wFjHgwHi0g"
+    },
+    "final_url": "https://www.tgb.cn/a/2wFjHgwHi0g"
+  }
+}

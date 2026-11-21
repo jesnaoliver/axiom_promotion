@@ -1,0 +1,23 @@
+{
+  "date": "2026-11-10",
+  "source": "douyin",
+  "platform": "douyin",
+  "topic_id": "DY-research",
+  "title": "1213份研报，我按类型存不按行业存",
+  "draft_path": "E:\\WorkbuddyWork\\2026-11-01-18-31-53\\xhs\\content\\drafts\\2026-11-10_DY-research.json",
+  "content_fingerprint": "0dbcb875265c74c06af464758d6efbfedd0f605d",
+  "image_count": 1,
+  "compliance_passed": true,
+  "violations": [],
+  "warnings": [
+    {
+      "category": "需勾选AI内容标识",
+      "detail": "抖音《内容标识使用规范》要求AI生成内容勾选「含有AI生成内容」，网信办6类必选标签为发布必经环节",
+      "platform": "douyin"
+    }
+  ],
+  "title_advice": [],
+  "published": false,
+  "error": "2026-11-10 抖音当日已有成功发布记录，本次不再重复发布",
+  "stage": "dedup"
+}
