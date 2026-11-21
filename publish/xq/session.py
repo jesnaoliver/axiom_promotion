@@ -24,11 +24,15 @@
 """
 
 import socket
+import sys
 import time
 from pathlib import Path
 
 from playwright.sync_api import sync_playwright
 
+sys.path.insert(0, str(Path(__file__).parent.parent.parent))
+
+from config import env_loader  # noqa: E402
 from publish.xq.resident import CDP_PORT, CDP_URL, port_alive  # noqa: F401
 
 ROOT = Path(__file__).parent.parent.parent
@@ -261,14 +265,7 @@ def start_resident_browser() -> bool:
 
 def _prefill(page) -> None:
     """自动填账号密码并勾协议（用户只需点登录+拖滑块）。"""
-    env = {}
-    p = ROOT / ".env"
-    if p.exists():
-        for line in p.read_text(encoding="utf-8").splitlines():
-            line = line.strip()
-            if "=" in line and not line.startswith("#"):
-                k, v = line.split("=", 1)
-                env[k.strip()] = v.strip().strip('"').strip("'")
+    env = env_loader.load_env()
 
     try:
         page.locator("xpath=//a[normalize-space(text())='账号密码登录']").first.click(

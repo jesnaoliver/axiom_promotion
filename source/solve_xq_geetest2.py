@@ -20,6 +20,7 @@ from playwright.sync_api import sync_playwright
 
 import sys
 sys.path.insert(0, str(Path(__file__).parent.parent))
+from config import env_loader  # noqa: E402
 from source.solve_xq_geetest import analyze, human_drag  # noqa: E402
 
 ROOT = Path(__file__).parent.parent
@@ -66,12 +67,7 @@ STATE_JS = """async () => {
 
 
 def main():
-    env = {}
-    for line in open(ROOT / ".env", encoding="utf-8"):
-        line = line.strip()
-        if "=" in line and not line.startswith("#"):
-            k, v = line.split("=", 1)
-            env[k.strip()] = v.strip().strip('"').strip("'")
+    env = env_loader.load_env()
     user = env.get("xq_user", "")
     passwd = env.get("xq_passwd", "")
 

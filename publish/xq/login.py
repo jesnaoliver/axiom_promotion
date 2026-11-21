@@ -22,22 +22,14 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).parent.parent.parent))
 
+from config import env_loader  # noqa: E402
+
 ROOT = Path(__file__).parent.parent.parent
 
 
 def load_env() -> dict:
-    out = {}
-    p = ROOT / ".env"
-    if not p.exists():
-        return out
-    for line in p.read_text(encoding="utf-8").splitlines():
-        line = line.strip()
-        if not line or line.startswith("#") or "=" not in line:
-            continue
-        k, v = line.split("=", 1)
-        out[k.strip()] = v.strip().strip('"').strip("'")
-        os.environ.setdefault(k.strip(), v.strip().strip('"').strip("'"))
-    return out
+    """读取凭证（统一走 config.env_loader，支持本地 .env 与资产库缓存）。"""
+    return env_loader.load_env()
 
 
 def main():

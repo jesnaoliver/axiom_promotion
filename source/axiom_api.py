@@ -21,6 +21,7 @@ AXIOM 数据源 —— 从 efficientinvest.cn 拉取四个模块的原始数据�
 
 import json
 import os
+import sys
 import time
 from pathlib import Path
 
@@ -28,21 +29,16 @@ import urllib.error
 import urllib.request
 
 ROOT = Path(__file__).parent.parent
-ENV_FILE = ROOT / ".env"
+sys.path.insert(0, str(ROOT))
+
+from config.env_loader import load_env  # noqa: E402
+
 BASE = "https://www.efficientinvest.cn/api_group/api"
 
 
 def _load_env() -> dict:
-    """读取 .env（不覆盖已存在的环境变量）。"""
-    env = {}
-    if ENV_FILE.exists():
-        for line in ENV_FILE.read_text(encoding="utf-8").splitlines():
-            line = line.strip()
-            if not line or line.startswith("#") or "=" not in line:
-                continue
-            k, v = line.split("=", 1)
-            env[k.strip()] = v.strip()
-    return env
+    """读取凭证（统一走 config.env_loader，支持本地 .env 与资产库缓存）。"""
+    return load_env()
 
 
 class AxiomClient:

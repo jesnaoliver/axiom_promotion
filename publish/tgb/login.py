@@ -21,6 +21,8 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).parent.parent.parent))
 
+from config import env_loader  # noqa: E402
+
 ROOT = Path(__file__).parent.parent.parent
 USER_DATA_DIR = ROOT / ".tgb_profile"
 
@@ -30,21 +32,8 @@ SSO_LOGIN = "https://sso.tgb.cn/web/login/index"
 
 
 def load_env() -> dict:
-    """读取 .env（不覆盖已存在的环境变量）。"""
-    env_file = ROOT / ".env"
-    out = {}
-    if not env_file.exists():
-        return out
-    for line in env_file.read_text(encoding="utf-8").splitlines():
-        line = line.strip()
-        if not line or line.startswith("#") or "=" not in line:
-            continue
-        k, v = line.split("=", 1)
-        k = k.strip()
-        v = v.strip().strip('"').strip("'")
-        out[k] = v
-        os.environ.setdefault(k, v)
-    return out
+    """读取凭证（统一走 config.env_loader，支持本地 .env 与资产库缓存）。"""
+    return env_loader.load_env()
 
 
 def _is_logged_in(page) -> bool:

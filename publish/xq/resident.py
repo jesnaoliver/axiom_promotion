@@ -26,6 +26,10 @@ import sys
 import time
 from pathlib import Path
 
+sys.path.insert(0, str(Path(__file__).parent.parent.parent))
+
+from config import env_loader  # noqa: E402
+
 ROOT = Path(__file__).parent.parent.parent
 USER_DATA_DIR = ROOT / ".xq_profile"
 CDP_PORT = 9223
@@ -178,14 +182,7 @@ def _wait_and_prefill(timeout: int = 1800) -> bool:
 
 def _prefill(page) -> None:
     """自动填账号密码 + 勾协议。"""
-    env = {}
-    p = ROOT / ".env"
-    if p.exists():
-        for line in p.read_text(encoding="utf-8").splitlines():
-            line = line.strip()
-            if "=" in line and not line.startswith("#"):
-                k, v = line.split("=", 1)
-                env[k.strip()] = v.strip().strip('"').strip("'")
+    env = env_loader.load_env()
 
     try:
         page.locator("xpath=//a[normalize-space(text())='账号密码登录']").first.click(

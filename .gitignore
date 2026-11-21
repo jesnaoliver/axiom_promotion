@@ -6,6 +6,10 @@
 *.env
 !/.env.example
 
+# 从项目资产库同步下来的凭证缓存（见 scripts/sync_env.py）
+.env.asset
+.env.asset.*
+
 # 浏览器登录态：含各平台 session cookie，泄露即账号被接管
 .browser_profile/
 .douyin_profile/

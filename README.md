@@ -39,6 +39,30 @@ python scheduler.py --dry-run
 
 **`.env` 已被 `.gitignore` 排除，切勿提交、切勿外传。**
 
+### 凭证读取机制
+
+所有凭证读取统一走 `config/env_loader.py`，优先级为：
+
+| 优先级 | 来源 |
+|---|---|
+| 1 | **进程环境变量**（便于临时覆盖与 CI 注入） |
+| 2 | **本地 `.env`** |
+| 3 | **资产库缓存 `.env.asset`**（团队共享凭证，由 `scripts/sync_env.py` 拉取） |
+
+检查本地凭证状态（只显示有/无，不显示明文）：
+
+```bash
+python config/env_loader.py
+```
+
+从项目资产库同步团队共享凭证：
+
+```bash
+python scripts/sync_env.py --url "<资产库下载链接>"
+```
+
+> 资产库凭证链接约 60 分钟有效，需现签。详见项目资产库 `AXIOM多平台发布项目/共享说明.md`。
+
 ### 登录态
 
 各平台登录态存在**本机**的浏览器 profile 目录（`.xq_profile/`、`.douyin_profile/`、`.tgb_profile/`、`.browser_profile/`），同样已排除在仓库外。
@@ -71,6 +95,10 @@ python scheduler.py --dry-run
 │   ├── cover.py              封面生成
 │   ├── facts/                真实素材（每个选题一个 JSON）
 │   └── for_xq/ for_tgb/ for_douyin/ for_xq_hot/  各平台成稿
+├── config/                   共享基础设施
+│   └── env_loader.py         统一凭证加载（本地 .env / 资产库缓存 / 环境变量）
+├── scripts/
+│   └── sync_env.py           从项目资产库同步凭证到本地
 ├── publish/                  发布器（Playwright）
 │   ├── browser.py            浏览器会话层
 │   ├── login.py              扫码登录

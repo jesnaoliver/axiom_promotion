@@ -36,6 +36,7 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).parent.parent))
 
+from config import env_loader  # noqa: E402
 from source.axiom_intel import (  # noqa: E402
     fetch_all, find_for_sector, pick_for_sector, pick_with_coverage,
 )
@@ -397,17 +398,8 @@ def run(publish: bool = True, limit: int = 1, log_dir: Path | None = None) -> di
 
 
 def _load_env() -> dict:
-    """读 .env（不覆盖已有环境变量）。"""
-    out = {}
-    p = ROOT / ".env"
-    if p.exists():
-        for line in p.read_text(encoding="utf-8").splitlines():
-            line = line.strip()
-            if not line or line.startswith("#") or "=" not in line:
-                continue
-            k, v = line.split("=", 1)
-            out[k.strip()] = v.strip().strip('"').strip("'")
-    return out
+    """读凭证（统一走 config.env_loader，支持本地 .env 与资产库缓存）。"""
+    return env_loader.load_env()
 
 
 def save_report(log_dir: Path, filename: str, report: dict) -> Path:
